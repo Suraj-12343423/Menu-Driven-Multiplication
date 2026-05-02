@@ -1,55 +1,70 @@
-# 📘 Multiplication Table Generator (C Program)
 
-## 🧾 Description
 
-This is a simple **menu-driven C program** that generates a multiplication table for any number up to a given limit.
 
-It is created for **practice purposes** to understand loops, conditions, and basic user input handling in C.
+````md
+# 🔢 Multiplication Table Generator (C Language)
+
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Level](https://img.shields.io/badge/Level-Beginner-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+
+---
+
+## 📌 Overview
+
+This is a simple **C program** that generates a multiplication table for any number entered by the user up to a given limit.  
+It helps beginners understand loops, input/output, and basic programming logic.
 
 ---
 
 ## ⚙️ Features
 
-- Menu-driven program
-- Generate multiplication table for any number
-- User-defined limit
-- Input validation for limit
-- Exit option
+- Accepts number input from user  
+- Accepts limit for table generation  
+- Displays clean multiplication table  
+- Beginner-friendly logic  
+- Fast execution using simple C code  
 
 ---
 
 ## 🧠 Concepts Used
 
-- while loop
-- for loop
-- if-else conditions
-- break and continue statements
-- User input (scanf/printf)
+- `for` loop  
+- `printf()` and `scanf()`  
+- Basic arithmetic operations  
+- User input handling  
 
 ---
 
-## 🖥️ How It Works
+## 📁 Project Structure
 
-1. Program shows a menu
-2. User selects an option:
-   - 1 → Generate table
-   - 2 → Exit
-3. If option 1:
-   - Enter number
-   - Enter limit
-   - Table is printed
-4. If option 2:
-   - Program exits
+```bash
+multiplication-table/
+├── main.c
+└── README.md
+````
 
 ---
 
-## 📌 Sample Output
+## ▶️ How to Run
 
-===== MULTIPLICATION TABLE MENU =====
-1. Generate Table
-2. Exit
-Enter your choice: 1
+### 🔧 Compile the program
 
+```bash
+gcc main.c -o table
+```
+
+### 🚀 Run the program
+
+```bash
+./table
+```
+
+---
+
+## 🧾 Sample Output
+
+```text
 Enter a number: 5
 Enter limit: 10
 
@@ -65,16 +80,31 @@ Multiplication Table of 5:
 5 x 8 = 40
 5 x 9 = 45
 5 x 10 = 50
+```
 
-👨‍💻 Author
+---
 
-Sai Suraj
-Practice project in C programming
+## 💡 Working Logic
 
-📌 Note
+The program uses a `for` loop that runs from `1` to the user-defined limit.
+Each iteration multiplies the number with the loop counter and prints the result.
 
-This project is only for learning and practice of basic C programming concepts.
+---
 
+## 🎯 Learning Outcomes
 
+* Loop understanding in C
+* Basic problem-solving
+* Input/output handling
+* Program structure clarity
 
+---
+
+## 👨‍💻 Author
+
+**Sai Suraj**
+C Programming | DSA | MERN Stack Learner 🚀
+
+```
+```
 
