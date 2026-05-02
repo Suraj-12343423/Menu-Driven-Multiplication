@@ -66,35 +66,15 @@ Multiplication Table of 5:
 5 x 9 = 45
 5 x 10 = 50
 
+👨‍💻 Author
 
----
+Sai Suraj
+Practice project in C programming
 
-## 🚀 How to Run
+📌 Note
 
-```bash
-gcc main.c -o table
-./table
+This project is only for learning and practice of basic C programming concepts.
 
-## 👨‍💻 Author
 
-**Sai Suraj**  
-🎓 B.Tech Graduate (KIIT)  
-💻 Aspiring Software Developer  
-🚀 Practicing C, DSA, and Full Stack Development  
-
----
-
-## 📝 Notes
-
-- This is a beginner-level C program made for practice.
-- Focus is on understanding:
-  - Loops (while, for)
-  - Conditional statements (if-else)
-  - Menu-driven program flow
-- Input validation is added only for basic cases.
-- Program runs in an infinite loop until user chooses to exit.
-- Can be improved by adding features like file storage, reverse table, or multiple table generation.
-
----
 
 
