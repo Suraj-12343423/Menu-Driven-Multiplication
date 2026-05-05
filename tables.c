@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int choice, num, limit, i;
+    int choice, num, lim, i;
 
     while (1) {
         printf("\n===== MULTIPLICATION TABLE MENU =====\n");
@@ -16,16 +16,16 @@ int main() {
             scanf("%d", &num);
 
             printf("Enter limit: ");
-            scanf("%d", &limit);
+            scanf("%d", &lim);
 
-            if (limit <= 0) {
+            if (lim <= 0) {
                 printf("Please enter a positive limit.\n");
                 continue;
             }
 
             printf("\nMultiplication Table of %d:\n\n", num);
 
-            for (i = 1; i <= limit; i++) {
+            for (i = 1; i <= lim; i++) {
                 printf("%d x %d = %d\n", num, i, num * i);
             }
 
