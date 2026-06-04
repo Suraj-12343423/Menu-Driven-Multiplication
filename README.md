@@ -1,7 +1,7 @@
 
 ---
 
-# 🔢 Multiplication Table Generator (C Languages)
+# 🔢 Multiplication Table Generator (C Language)
 
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Level](https://img.shields.io/badge/Level-Beginner-yellow)
